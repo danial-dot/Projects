@@ -164,7 +164,7 @@ class GameFrame extends JFrame {
     private void connectToDatabase() {
         try {
             // Connect without specifying the database
-            Connection initialConnection = DriverManager.getConnection("jdbc:mysql://localhost:3306/", "root", "12349876");
+            Connection initialConnection = DriverManager.getConnection("jdbc:mysql://localhost:3306/", "root", "******");
             Statement statement = initialConnection.createStatement();
     
             // Create the database if it doesn't exist
